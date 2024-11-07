@@ -4,8 +4,10 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
+import { useRouter } from "expo-router";
 
 export default function Index() {
+  const router = useRouter();
   return (
     <View className="flex-1 flex justify-end">
       <StatusBar barStyle={"light-content"} />
@@ -24,12 +26,13 @@ export default function Index() {
           <Text className="text-slate-300 font-bold tracking-wide text-5xl">
             Ready To Start Your
           </Text>
-          <Text className="text-red-800 font-bold tracking-wide text-5xl pt-3">
+          <Text className="text-rose-800 font-bold tracking-wide text-5xl pt-3">
             Fitness Journey?
           </Text>
         </View>
         <View>
           <TouchableOpacity
+            onPress={() => router.push("/Home")}
             style={{ height: hp(7), width: wp(60) }}
             className="bg-pink flex items-center justify-center mx-auto rounded-full border-2 border-red mt-8"
           >
