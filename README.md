@@ -1,4 +1,10 @@
-# Welcome to your Expo app 👋
+# Screenshot of fitnessApp
+
+![Screenshot_20241107-174523_Expo Go](https://github.com/user-attachments/assets/e29dfd89-be77-4930-89a9-7129b24acc09)
+
+![Screenshot_20241107-174529_Expo Go](https://github.com/user-attachments/assets/84d1e188-3f12-4ec4-bd36-c97ede2551e4)
+
+![Screenshot_20241107-174543_Expo Go](https://github.com/user-attachments/assets/1388b9bb-d957-4792-a495-4815d91e638c)
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
