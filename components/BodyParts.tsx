@@ -8,7 +8,14 @@ const FitnessCards = () => {
 
   const renderItem = ({ item, index }) => (
     <TouchableOpacity
-      onPress={() => router.push({ pathname: "/Exercises", params: item })}
+      onPress={() =>
+        router.push({
+          pathname: "/Exercises",
+          params: {
+            id: item.id,
+          },
+        })
+      }
       style={{
         alignItems: "center",
         justifyContent: "center",

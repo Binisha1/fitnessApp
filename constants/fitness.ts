@@ -1,4 +1,4 @@
-export default [
+const fitness = [
   {
     id: "0",
     image:
@@ -194,3 +194,5 @@ export default [
     ],
   },
 ];
+
+export default fitness;
